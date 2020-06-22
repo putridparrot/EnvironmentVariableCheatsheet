@@ -25,12 +25,12 @@ Variables should be enclosed in %, for example _echo %TEMP%_ on my Windows 10 ma
 | LOGONSERVER | \\\{domain} |
 | USERDOMAIN_ROAMINGPROFILE | User domain associated with romaing profile |
 
-The follows are default folder locations
+The follows are default directory locations
 
-| Variable | Folder locations |
+| Variable | Directory location |
 | -------- | ------- |
 | SYSTEMDRIVE | C: (or whatever your system drive is) |
-| CD | The current folder |
+| CD | The current directory |
 | TMP or TEMP     | C:\Users\\{username}\AppData\Local\Temp |
 | HOMEDRIVE    | C: |
 | HOMEPATH     | \Users\\{username} |
@@ -52,9 +52,9 @@ The follows are default folder locations
 | CMDCMDLINE | Command line used to launch CMD (i.e. "C:\windows\system32\cmd.exe") |
 | CMDEXTVERSION | Number of command process extensons for CMD prompt |
 
-Common folder locations (including the %)
+Common directory locations (including the %)
 
-| Variable | Folder locations |
+| Variable | Directory location |
 | -------- | ------- |
 | %USERPROFILE%\Desktop | C:\Users\\{username}\Desktop |
 | %USERPROFILE%\Downloads | C:\Users\\{username}\Downloads |
@@ -65,3 +65,14 @@ Common folder locations (including the %)
 | %AppData%\Microsoft\Windows\Start Menu\Programs | C:\Users\\{username}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs |
 | %AppData%\Microsoft\Windows\Start Menu\Programs\Startup | C:\Users\\{username}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup |
 
+Some default application directories
+
+| Variable | Description |
+| -------- | ------- |
+| %USERPROFILE%\\.npmrc | NPM ini-formatted configuration file |
+| %USERPROFILE%\\.gitconfig | Global Git configuration file |
+| %USERPROFILE%\\.bash_history | History of BASH commands |
+| %APPDATA%\cabal | Cabal configuration and packages |
+| %USERPROFILE%\Documents\Visual Studio 2019\Templates\ProjectTemplates | Visual Studio user's project templates |
+| %USERPROFILE%\Documents\Visual Studio 2019\Templates\ItemTemplates | Visual Studio user's item templates |
+| %USERPROFILE%\\.nuget\packages | Nuget packages folder | 
