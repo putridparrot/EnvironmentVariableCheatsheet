@@ -62,8 +62,9 @@ Common directory locations (including the %)
 | %USERPROFILE%\Pictures | C:\Users\\{username}\Pictures |
 | %USERPROFILE%\Music | C:\Users\\{username}\Music |
 | %USERPROFILE%\Videos | C:\Users\\{username}\Videos |
-| %AppData%\Microsoft\Windows\Start Menu\Programs | C:\Users\\{username}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs |
-| %AppData%\Microsoft\Windows\Start Menu\Programs\Startup | C:\Users\\{username}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup |
+| %PROGRAMDATA%\Microsoft\Windows\Start Menu\Programs | C:\ProgramData\Microsoft\Windows\Start Menu\Programs |
+| %APPDATA%\Microsoft\Windows\Start Menu\Programs | C:\Users\\{username}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs |
+| %APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup | C:\Users\\{username}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup |
 
 Some default application directories
 
