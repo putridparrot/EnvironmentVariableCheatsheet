@@ -25,7 +25,7 @@ Variables should be enclosed in %, for example _echo %TEMP%_ on my Windows 10 ma
 | LOGONSERVER | \\\{domain} |
 | USERDOMAIN_ROAMINGPROFILE | User domain associated with romaing profile |
 
-The follows are default directory locations
+The following are the default directory locations
 
 | Variable | Directory location |
 | -------- | ------- |
